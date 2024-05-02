@@ -1,0 +1,123 @@
+:root {
+  --main-bg-color: #ff5757;
+  --primary-bg-color: #ff914d;
+  --secondary-bg-color: #64bee6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-top {
+  background-color: var(--secondary-bg-color);
+  position: relative;
+  z-index: 1;
+}
+.hero .slider-image {
+  position: relative;
+  z-index: 1;
+}
+
+header .navbar {
+  margin-top: -80px;
+}
+.hero {
+  margin-top: -90px;
+}
+.contact-col-2 .support {
+  background-color: #dc3c3a;
+  color: #fff;
+}
+.contact-col-2 .support:hover {
+  color: #dc3c3a;
+  background-color: #fff;
+}
+.contact-col-1 {
+  color: #fff;
+}
+.contact-col-2 {
+  color: #fff;
+}
+.nav-item a:is(:link, :active, :visited) {
+  font-size: 18px;
+  color: #000;
+}
+
+a:is(:link, :active, :visited).active {
+  color: #fff;
+  background-color: var(--main-bg-color);
+  border-radius: 5px;
+}
+form .btn-custom:hover {
+  background-color: var(--main-bg-color);
+  color: #fff;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 600px;
+}
+
+/* CARD SECTION */
+.about-section {
+  position: relative;
+}
+.card-wrapper {
+  position: relative;
+  top: -40px;
+  z-index: 3;
+}
+.card-body {
+  text-align: center;
+  .card-title {
+    color: var(--main-bg-color);
+  }
+}
+.card-body a {
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+}
+/* /CARD SECTION */
+
+/* VIDEO SECTION */
+.video-section {
+  position: relative;
+  background: url(/img/video/video-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 560px;
+}
+
+/* /VIDEO SECTION */
+
+/* EXTRA INFO SECTION */
+.extra-info {
+  padding: 10px 5px;
+  height: 240px;
+  background-color: var(--primary-bg-color);
+}
+.exta-icon {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+.extra-info-item {
+  display: flex;
+  width: 340px;
+  color: #fff;
+}
+/* /EXTRA INFO SECTION */
+
+/* VOICE RECORDING SECTION */
+.voice-recording-section  {
+  position: relative;
+  background: url(/img/audio/rec.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+  filter: brightness(70%);
+}
+/* /VOICE RECORDING SECTION */

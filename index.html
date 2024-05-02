@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sheva.uz</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header-top">
+      <div class="container">
+        <div
+          class="contact_wrapper d-flex align-items-center justify-content-between"
+        >
+          <div class="contact-col-1">
+            <i class="bi bi-envelope-open"></i>
+            <span>shevauz@gmail.com</span>
+            <i class="bi bi-telephone"></i>
+            +998 82 900 00 09
+          </div>
+          <div class="contact-col-2 d-flex align-items-center my-3">
+            <i class="bi bi-facebook mx-2"></i>
+            <i class="bi bi-linkedin mx-2"></i>
+            <i class="bi bi-telegram mx-2"></i>
+            <i class="bi bi-instagram mx-2"></i>
+            <i class="bi bi-youtube mx-2"></i>
+            <button type="button" class="btn support mx-2">Support</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"
+              ><img src="img/shevaLogo.svg" alt="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html"
+                    >Bosh sahifa</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/words.html">So'zlar jadvali</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/script.html">Transkripsiya</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Aloqa</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success btn-custom"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section Carousel -->
+    <section class="hero">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/img/hero/02c4fee94ef9.jpg"
+              class="d-block w-100 slider-image"
+              alt="swiper"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/hero/scale_1200.jpg"
+              class="d-block w-100 slider-image"
+              alt="swiper"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/hero/andijan.jpg"
+              class="d-block w-100 slider-image"
+              alt="swiper"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/hero/al-fra.jpg"
+              class="d-block w-100 slider-image"
+              alt="swiper"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/img/hero/al-fraa.jpg"
+              class="d-block w-100 slider-image"
+              alt="swiper"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- /Hero Section Carousel -->
+
+    <!-- Section Card -->
+    <section class="about-section">
+      <div class="container">
+        <div class="card-wrapper d-flex justify-content-evenly">
+          <div class="card" style="width: 20rem">
+            <img
+              src="/img/card/bobur.jpg"
+              class="card-img-top"
+              alt="card-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Andijon Farg'ona vodiysining ko'hna shaharlaridan hisoblanadi.
+              </h5>
+              <p class="card-text">
+                Andijon Arablar istilosiga qadar, yani VIII asrlarda...
+              </p>
+              <a href="#" class="btn btn-primary btn-more"
+                >Batafsil <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem">
+            <img
+              src="/img/card/univer.jpg"
+              class="card-img-top"
+              alt="card-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alfraganus University</h5>
+              <p class="card-text">
+                Zamonaviy ta'lim va sharqona tarbiya uyg'unligi
+              </p>
+              <a href="#" class="btn btn-primary btn-more"
+                >Batafsil <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 20rem">
+            <img
+              src="/img/card/tayanch.jpg"
+              class="card-img-top"
+              alt="card-img"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ozbek tilining tayanch shevalari</h5>
+              <p class="card-text">
+                Andijon shevasi o'zbek adabiy tilining yuzaga kelishi va ...
+              </p>
+              <a href="#" class="btn btn-primary btn-more"
+                >Batafsil <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section Card -->
+
+    <!-- Video Section -->
+    <section class="video-section py-10 px-10">
+      <div class="container py-4">
+        <h3 class="align">Video section</h3>
+        <div class="video-wrapper">
+          <video width="100%" height="460" autoplay muted>
+            <source
+              src="/img/video/WELCOME TO ANDIJAN-2022.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- /Video Section -->
+
+    <!-- Extra info section -->
+    <section class="extra-info">
+      <div class="extra-info-wrapper">
+        <div class="container">
+          <h3 class="p-x-100 text-center text-white my-15 py-4">
+            Qiziqarli faklar
+          </h3>
+          <div class="d-flex flex-row justify-content-around">
+            <div class="extra-info-item">
+              <!-- <i class="bi bi-globe-central-south-asia"></i> -->
+              <img
+                src="/img/extra-info/globe-central-south-asia.svg"
+                class="exta-icon"
+                alt="exta-icon"
+              />
+
+              <h5>
+                XV-XVI asrlarda Andijon shevasi O'rta Osiyo va butun
+                Movarounnahrda o'zbek adabiy tilining tayanch dialekti bo'lgan
+              </h5>
+            </div>
+            <div class="extra-info-item">
+              <!-- <i class="bi bi-globe-central-south-asia"></i> -->
+              <img
+                src="/img/extra-info/chat-text.svg"
+                class="exta-icon"
+                alt="exta-icon"
+              />
+
+              <h5>
+                Andijon shevasi fonetika morfologiya va leksika jihatdan hozirgi
+                zamon o'zbek milliy adabiy tiliga juda. yaqin
+              </h5>
+            </div>
+            <div class="extra-info-item">
+              <!-- <i class="bi bi-globe-central-south-asia"></i> -->
+              <img
+                src="/img/extra-info/hourglass.svg"
+                class="exta-icon"
+                alt="exta-icon"
+              />
+
+              <h5>
+                Andijon shevasi etnogenetik jihatdan qadimiy chigil lahjasiga
+                borib yetadi. "Devonu lug'otit-turk"da bazi dalillar ham
+                uchraydi.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Extra info section -->
+
+    <!-- Audio Section -->
+    <section
+      class="voice-recording-section shadow-lg p-3 mb-5 bg-body rounded d-flex align-items-center"
+    >
+      <div class="container">
+        <h3 class="text-white text-center pb-5">Audio yozuvlar</h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <audio controls>
+                  <source src="horse.ogg" type="audio/ogg" />
+                  <source src="/img/audio/Qarabogish.m4a" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <audio controls>
+                  <source src="horse.ogg" type="audio/ogg" />
+                  <source src="/img/audio/97 yosh.m4a" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <audio controls>
+                  <source src="horse.ogg" type="audio/ogg" />
+                  <source src="/img/audio/Ilon voqe.m4a" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <audio controls>
+                  <source src="horse.ogg" type="audio/ogg" />
+                  <source src="/img/audio/Голос 011.m4a" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Audio Section -->
+
+    <!-- Table Section -->
+    <section class="table-section">
+      <div class="container">
+        <div class="table-section-wrapper d-flex">
+          <!-- TABLE 1 -->
+          <div
+            class="table-section-item w-33 shadow-sm p-3 mb-5 bg-body rounded"
+          >
+            <h5 class="text-center">Turkum</h5>
+            <p class="text-center">
+              Sheva so'zlarning turkumlari guruhlari bo'yicha statistikasi
+            </p>
+            <div class="d-flex justify-content-between">
+              <span>Mustaqil</span>
+              <span><b>492</b></span>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <span>Yordamchi</span>
+              <span><b>3</b></span>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <span>Aloida</span>
+              <span><b>7</b></span>
+            </div>
+          </div>
+          <!-- /TABLE 1 -->
+
+          <!-- TABLE 2 -->
+          <div
+            class="table-section-item w-33 shadow-lg p-3 mb-5 bg-body rounded"
+          >
+            <h5 class="text-center">Sheva so'zida (transliteratsiya)</h5>
+            <p class="text-center">
+              Andijon shevasida bazaga qo'shilgan yangi so'zlar
+            </p>
+            <div class="d-flex">
+              <span>Hapsala</span>
+            </div>
+            <hr />
+            <div class="d-flex">
+              <span>Palon</span>
+            </div>
+            <hr />
+            <div class="d-flex">
+              <span>Ayal</span>
+            </div>
+            <hr />
+            <div class="d-flex">
+              <span>Ablaq</span>
+            </div>
+            <hr />
+            <div class="d-flex">
+              <span>Paqat</span>
+            </div>
+          </div>
+          <!-- /TABLE 2 -->
+
+          <!-- TABLE 3 -->
+          <div
+            class="table-section-item w-33 shadow-lg p-3 mb-5 bg-body rounded"
+          >
+            <h5 class="tetx-center">Sheva etimologiyasi</h5>
+            <p>Eng ko'p so'zlar o'zlashgan 5 ta manba</p>
+            <div class="d-flex justify-content-between">
+              <span>Turkcha</span>
+              <span><b>62</b></span>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <span>Forscha</span>
+              <span><b>15</b></span>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <span>Mo'g'ul</span>
+              <span><b>7</b></span>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <span>Ruscha</span>
+              <span><b>0</b></span>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <span>Inglizcha</span>
+              <span><b>0</b></span>
+            </div>
+          </div>
+          <!-- /TABLE 3 -->
+        </div>
+        <div class="d-flex justify-content-end mb-4">
+          <a
+            class="btn btn-primary text-center"
+            href="/words.html"
+            role="button"
+            >Jadvalga o'tish</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /Table Section -->
+
+    <!-- Footer -->
+    <footer class="mt-5 py-4" style="background-color: #abb8c3">
+      <div class="footer-wrapper">
+        <div class="container">
+          <div
+            class="footer-item-wrapper d-flex justify-content-between"
+            style="color: #fff"
+          >
+            <div class="footer-item w-33">
+              <h4>Foydali ilovalar</h4>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="https://gov.uz/edu/"
+                  >O'zbekiston Respublikasi Oliy ta'lim, fan va innovatsiyalar
+                  vaziligi</a
+                >
+              </div>
+              <div class="py-2">
+                <a
+                  class=""
+                  style="color: #fff"
+                  href="https://www.alfraganusuniversity.uz/"
+                  >Alfraganus University</a
+                >
+              </div>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="https://uzswlu.uz/"
+                  >O'zbekiston Jahon tillari Universiteti</a
+                >
+              </div>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="https://tsuos.uz/"
+                  >Toshkent Davlat Sharqshunoslik Universiteti</a
+                >
+              </div>
+            </div>
+
+            <div class="footer-item w-33">
+              <h4>Foydali ilovalar</h4>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="https://imlo.uz/"
+                  >Imlo.uz</a
+                >
+              </div>
+              <div class="py-2">
+                <a
+                  class=""
+                  style="color: #fff"
+                  href="https://sarlavha.com/"
+                  >Sarlavha.uz</a
+                >
+              </div>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="https://lotin.uz/"
+                  >Lotin.uz</a
+                >
+              </div>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="https://ziyonet.uz/uzc"
+                  >Ziyonet.uz</a
+                >
+              </div>
+            </div>
+
+            <div class="footer-item w-33">
+              <h4>Muallif maqolalari</h4>
+              <div class="py-2">
+                <a class="" style="color: #fff" href="#">Maqola nomi</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="h5 py-5 d-flex justify-content-end" style="color: #fff;">@Marifat Anarbaeva. All rights reserved. 2024</div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Bootstrap js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="activePage.js"></script>
+  </body>
+</html>
